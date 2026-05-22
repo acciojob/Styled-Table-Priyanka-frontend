@@ -1,1 +1,46 @@
-/* your code */
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background-color: #1e5a8e;
+            color: white;
+        }
+
+        th {
+            padding: 16px 20px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #e5e5e5;
+            transition: background-color 0.2s ease;
+        }
+
+        tbody tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f0f0f0;
+        }
+
+        tbody tr:nth-child(even):hover {
+            background-color: #e8e8e8;
+        }
+
+        td {
+            padding: 14px 20px;
+            font-size: 15px;
+            color: #333;
+        }
+
+        td:first-child {
+            font-weight: 500;
+            color: #1e5a8e;
+        }
